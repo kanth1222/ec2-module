@@ -10,7 +10,7 @@
                 "secretsmanager:DescribeSecret",
                 "secretsmanager:ListSecretVersionIds"
             ],
-            "Resource": "arn:aws:secretsmanager:${var.AWS_REGION}:*:secret:DarkTrace/*"
+            "Resource": "arn:aws:secretsmanager:*:*:secret:DarkTrace/*"
         },
         {
             "Sid": "VisualEditor1",
