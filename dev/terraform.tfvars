@@ -1,0 +1,7 @@
+vpc-cidr            = ""
+TGW_PREFIX          = ""
+vpc_id              = ""
+env                 = ""
+ec2-type            = "t3.medium"
+subnet_id           = ""
+key_name            = ""
